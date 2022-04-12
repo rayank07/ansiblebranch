@@ -45,7 +45,7 @@ stage('Get ansible code') {
           steps{
              
                 sshagent(['ssh-pass-ansible']) {
-                 ansiblePlaybook inventory:  'dev.inv',disableHostKeyChecking: true,  playbook: 'tomcat.yml'
+                 ansiblePlaybook inventory:  'stage.inv',disableHostKeyChecking: true,  playbook: 'tomcat.yml'
               }
 
           }
