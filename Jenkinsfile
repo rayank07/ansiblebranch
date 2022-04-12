@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('SCM Checkout') {
             steps{
-                credentialsId:'git-tok', url: 'https://github.com/rayank07/chatbot2.git'
+                git branch: 'chatapp2',credentialsId:'git-chat', url: 'https://github.com/rayank07/chatbot2.git'
             }
         }
         stage('MVN Build') {
