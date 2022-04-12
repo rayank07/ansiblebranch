@@ -1,0 +1,2 @@
+[webservers]
+prodvm ansible_user=root

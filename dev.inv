@@ -1,0 +1,2 @@
+[webservers]
+devvm ansible_user=root

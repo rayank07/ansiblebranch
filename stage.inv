@@ -1,0 +1,2 @@
+[webservers]
+stagingvm ansible_user=root
